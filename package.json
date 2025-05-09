@@ -1,0 +1,15 @@
+{
+  "name": "automation-tester-assessment",
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.0.0",
+    "@wdio/local-runner": "^8.0.0",
+    "@wdio/mocha-framework": "^8.0.0",
+    "@wdio/spec-reporter": "^8.0.0",
+    "@wdio/sync": "^8.0.0",
+    "chai": "^4.3.4",
+    "webdriverio": "^8.0.0"
+  }
+}
